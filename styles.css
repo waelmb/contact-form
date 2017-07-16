@@ -1,0 +1,68 @@
+body {
+  background: #eeeeee;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0;
+}
+
+a {
+  color: crimson;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+
+/* Layout
+------------------------------------------*/
+
+header,
+.container,
+footer {
+  margin: 0 auto;
+  width: 88%;
+  max-width: 1080px;
+}
+
+.wrapper {
+  padding: 1em 0;
+  background: #ffffff;
+}
+
+/* Form
+------------------------------------------*/
+input[type="text"],
+input[type="email"],
+textarea {
+  font-size: 1em;
+  background: linear-gradient(#eeeeee, #ffffff);
+  border-top: 2px solid #cccccc;
+  border-left: 2px solid #cccccc;
+  border-bottom: 2px solid #eeeeee;
+  border-right: 2px solid #eeeeee;
+  padding: .5em;
+  margin-top: .5em;
+}
+
+input[type="submit"] {
+  font-size: 1em;
+  background: linear-gradient(#eeeeee, #ffffff);
+  border: 2px solid #eeeeee;
+  padding: .5em 1em;
+  border-radius: 15px;
+  text-shadow: 1px 1px 3px rgba(198, 198, 198, 0.9);
+  margin-top: 1em;
+  cursor: pointer;
+  /*to remove the border when clicking*/
+  outline: none;
+}
+input[type="submit"]:hover {
+  background: linear-gradient(#ffffff, #eeeeee);
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus  {
+  outline: 2px solid orange;
+}
